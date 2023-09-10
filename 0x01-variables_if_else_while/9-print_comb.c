@@ -6,21 +6,16 @@
  * Return: 0
  */
 
-
 int main(void)
 {
-	int n;
+	int j;
 
-	for (n  = 0; n <= 10; n++)
+	for (j = 48; j <= 57; j++)
 	{
-		if (n == 9)
-			putchar(n + '0');
-		else
-		{
-			putchar(n + '0');
-			putchar(',');
-			putchar(' ');
-		}
+		putchar(j);
+		putchar(',');
+		putchar(' ');
 	}
+	putchar('\n');
 	return (0);
 }
