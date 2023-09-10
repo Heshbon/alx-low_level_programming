@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints all possible combinations of single digit numbers
+ * main - Print all possible combinations of small digit numbers
  *
  * Return: 0
  */
@@ -10,11 +10,14 @@ int main(void)
 {
 	int j;
 
-	for (j = 48; j <= 57; j++)
+	for (j = 0; j <= 10; j++)
 	{
-		putchar(j);
-		putchar(',');
-		putchar(' ');
+		putchar(j + '0');
+		if (j != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
