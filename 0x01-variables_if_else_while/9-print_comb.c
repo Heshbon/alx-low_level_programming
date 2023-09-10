@@ -6,17 +6,18 @@
  * Return: 0
  */
 
+
 int main(void)
 {
-	int j;
+	int n;
 
-	for (j = 0; j < 10; j++)
+	for (n  = 0; n < 10; n++)
 	{
-		if (j == 9)
-			putchar(j + '0');
+		if (n == 9)
+			putchar(n + '0');
 		else
 		{
-			putchar(j + '0');
+			putchar(n + '0');
 			putchar(',');
 			putchar(' ');
 		}
