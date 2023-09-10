@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Print all possible combinations of small digit numbers
+ * main - Task nine
  *
  * Return: 0
  */
