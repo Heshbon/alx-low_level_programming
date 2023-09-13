@@ -30,7 +30,7 @@ int main(void)
 	aft1 = (aft / l);
 	aft2 = (aft % l);
 
-	for (a = 92; a < 99; ++a)
+	for (a = 93; a < 99; ++a)
 	{
 		printf(", %lu", fib1 + (aft2 / l));
 		printf("%lu", aft2 % l);
