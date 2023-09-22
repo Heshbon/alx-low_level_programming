@@ -1,4 +1,5 @@
-#include <unistd>
+#include "main.h"
+#include <unistd.h>
 
 /**
  * _putchar - checks the character
