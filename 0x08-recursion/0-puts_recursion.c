@@ -2,12 +2,13 @@
 
 /**
  * _puts_recursion - a function that prints a string, followed by a new line
- * @s: the input value
+ * @s: the string to print
  * Return: 0
  */
+
 void _puts_recursion(char *s)
 {
-	if (*s)
+	if (*s != '\0')
 	{
 		_putchar(*s);
 		_puts_recursion(s + 1);
