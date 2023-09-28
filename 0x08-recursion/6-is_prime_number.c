@@ -1,10 +1,10 @@
 #include "main.h"
 
-int actual_prime(int n, int a);
+int actual_prime(int n, int j);
 
 /**
- * is_prime_number - a function that returns 1 if the input interger
- * @n: the value to evaluate
+ * is_prime_number - returns a prime number or not
+ * @n: the value to calculate
  * Return: 1 if n is prime number, 0 if not
  */
 
@@ -19,15 +19,15 @@ int is_prime_number(int n)
 /**
  * actual_prime - determines the prime number repeatedly
  * @n: the number to calculate
- * @a: iterating value
+ * @j: iterating value
  * Return: 1 if n is prime number, 0 if not
  */
 
-int actual_prime(int n, int a)
+int actual_prime(int n, int j)
 {
-	if (a == 1)
+	if (j == 1)
 		return (1);
-	if (n % a == 0 && a > 0)
+	if (n % j == 0 && j > 0)
 		return (0);
-	return (actual_prime(n, a - 1));
+	return (actual_prime(n, j - 1));
 }
