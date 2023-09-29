@@ -6,7 +6,7 @@
  * main - a program that multiplies two numbers
  * @argc: counts the arguement being passed
  * @argv: the array arquement
- * Return: 0
+ * Return: 0 on success, 1 Error
  */
 
 int main(int argc, char *argv[])
