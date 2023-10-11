@@ -2,16 +2,35 @@
 #include <stdio.h>
 
 /**
+ * print_opcodes - a program that prints the opcodes of the program
+ * @a: the address value
+ * @n: the number of bytes
+ * Return: 0
+ */
+
+void print_opcodes(char *a, int n)
+{
+	int y;
+
+	for (y = 0; y < n; y++)
+	{
+		printf("%.2hhx", a[y]);
+		if (y < n - 1)
+			printf(" ");
+	}
+	printf("\n");
+}
+
+/**
  * main - a program that prints the opcodes of its own main function
  * @argv: the argument vector
  * @argc: the argument value
  * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	int a, b;
-	char *c;
+	int a;
 
 	if (argc != 2)
 	{
@@ -26,17 +45,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(2);
 	}
-
-	c = (char *)main;
-
-	for (b = 0; b < a; b++)
-	{
-		if (b == a - 1)
-		{
-			printf("%02hhx\n", c[b]);
-			break;
-		}
-		printf("%02hhx", c[b]);
-	}
+	print_opcodes((char *)&main, a);
 	return (0);
 }
