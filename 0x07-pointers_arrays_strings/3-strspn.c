@@ -4,7 +4,7 @@
  * _strspn - a function that gets the length of a prefix substring
  * @s: the value input
  * @accept: the value input
- * Return: 0
+ * Return: character
  */
 
 unsigned int _strspn(char *s, char *accept)
