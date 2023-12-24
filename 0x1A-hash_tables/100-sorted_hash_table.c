@@ -27,7 +27,7 @@ shash_table_t *shash_table_create(unsigned long int size)
 		return (NULL);
 
 	p->array = calloc(size, sizeof(shash_node_t *));
-	if (!p)
+	if (!p->array)
 	{
 		free(p);
 		return (NULL);
@@ -65,8 +65,8 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 	p->value = strdup(value);
 	if (!(p->value))
 	{
-		free(p);
 		free(p->key);
+		free(p);
 		return (0);
 	}
 	p->sprev = NULL;
@@ -148,7 +148,7 @@ void create_shash_order(shash_table_t *ht, shash_node_t *node)
 	{
 		while (p->snext)
 		{
-			if (strcmp(node->key, p->key) > 0)
+			if (strcmp(node->key, p->key) >= 0)
 				p = p->snext;
 			else
 			{
