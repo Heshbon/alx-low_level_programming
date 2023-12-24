@@ -129,40 +129,37 @@ void create_shash_node(shash_table_t *ht, shash_node_t *node)
 
 void create_shash_order(shash_table_t *ht, shash_node_t *node)
 {
-	shash_node_t *p = NULL;
-	shash_node_t *b = NULL;
+	shash_node_t *p = ht->shead;
 
-	p = ht->shead;
-	if (!ht->shead)
+	if (!p)
 	{
 		ht->shead = node;
 		ht->stail = node;
+		return;
 	}
-	else if (strcmp(node->key, p->key) <= 0)
+	while (p)
 	{
-		node->snext = ht->shead;
-		ht->shead->sprev = node;
-		ht->shead = node;
-	}
-	else
-	{
-		while (p->snext)
+		if (strcmp(node->key, p->key) <= 0)
 		{
-			if (strcmp(node->key, p->key) >= 0)
-				p = p->snext;
+			if (p->sprev)
+				p->sprev->snext = node;
 			else
-			{
-				b = p;
-				p = b->sprev;
-				b->sprev = node;
-				break;
-			}
+				ht->shead = node;
+
+			node->sprev = p->sprev;
+			node->snext = p;
+			p->sprev = node;
+
+			return;
 		}
-		node->snext = p->snext;
-		p->snext = node;
-		node->sprev = p;
-		if (!node->snext)
+		if (!p->snext)
+		{
+			p->snext = node;
+			node->sprev = p;
 			ht->stail = node;
+			return;
+		}
+		p = p->snext;
 	}
 }
 
