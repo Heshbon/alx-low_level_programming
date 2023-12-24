@@ -216,7 +216,7 @@ void shash_table_print(const shash_table_t *ht)
 	while (p)
 	{
 		printf("'%s': '%s'", p->key, p->value);
-		if (--a)
+		if (p->snext)
 			printf(", ");
 		p = p->snext;
 	}
@@ -247,7 +247,7 @@ void shash_table_print_rev(const shash_table_t *ht)
 	while (p)
 	{
 		printf("'%s': '%s'", p->key, p->value);
-		if (--a)
+		if (p->sprev)
 			printf(", ");
 		p = p->sprev;
 	}
