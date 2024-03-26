@@ -76,3 +76,11 @@ Tasks
 	Grid is completely surrounded by water, and there is one island (or nothing).
 
 	The island doesn’t have “lakes” (water inside that isn’t connected to the water around the island).
+
+6. make -f 100-Makefile
+
+	100-Makefile: Makefile that creates an executable school.
+
+	Makefile should work even if there is a file in the folder that has the same name as one of your rule
+
+	Makefile should not compile if the header file m.h is missing.
