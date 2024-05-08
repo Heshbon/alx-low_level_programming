@@ -53,11 +53,7 @@ This repository contains programs written for the low-level programming and algo
 
   + <u>[0x1A-hash_tables](https://github.com/Heshbon/alx-low_level_programming/tree/master/0x1A-hash_tables)</u>
 
-  + <u>[0x1B. C - Sorting algorithms & Big O](https://github.com/Heshbon/alx-low_level_programming/tree/master/0x1B. C - Sorting algorithms & Big O)</u>
-
   + <u>[0x1C-makefiles](https://github.com/Heshbon/alx-low_level_programming/tree/master/0x1C-makefiles)</u>
-
-  + <u>[0x1D. C - Binary trees](https://github.com/Heshbon/alx-low_level_programming/tree/master/0x1D. C - Binary trees)</u>
 
   + <u>[0x1E-search_algorithms](https://github.com/Heshbon/alx-low_level_programming/tree/master/0x1E-search_algorithms)</u>
 
@@ -69,4 +65,4 @@ Hesbon Kipchirchir <[Heshbon](https://github.com/Heshbon)>
 
 # Acknowledgements 🙏
 
-All work contained in this project is part of my ongoing curriculum training at ALX Africa. ALX Africa takes advantage of the fully-equipped Tech Hubs to prepare students for careers in the tech industry using project-based peer learning in Africa and the world. For more information, visit this link <u>[https://www.alxafrica.com]</u>
+All work contained in this project is part of my ongoing curriculum training at ALX Africa. ALX Africa takes advantage of the fully-equipped Tech Hubs to prepare students for careers in the tech industry using project-based peer learning in Africa and the world. For more information, visit this link <u>[ALX Africa](https://www.alxafrica.com)</u>
