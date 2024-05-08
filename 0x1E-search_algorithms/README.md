@@ -6,13 +6,13 @@ In this project on search algorithms, I implemented various search algorithms an
 
 # 0. Linear search
 
-  + <u>[0-linear.c]()</u>: C function that searches for a value in an array of integers using the Linear search algorithm.
+  + <u>[0-linear.c](https://github.com/Heshbon/alx-low_level_programming/blob/master/0x1E-search_algorithms/0-linear.c)</u>: C function that searches for a value in an array of integers using the Linear search algorithm.
 
   + If value is not present in array or if array is NULL, your function must return -1.
 
 # 1. Binary search
  
-  + <u>[1-binary.c]()</u>: C function that searches for a value in a sorted array of integers using the Binary search algorithm.
+  + <u>[1-binary.c](https://github.com/Heshbon/alx-low_level_programming/blob/master/0x1E-search_algorithms/1-binary.c)</u>: C function that searches for a value in a sorted array of integers using the Binary search algorithm.
 
   + If value is not present in array or if array is NULL.
 
@@ -20,23 +20,23 @@ In this project on search algorithms, I implemented various search algorithms an
 
 # 2. Big O #0
 
-  + <u>[2-O]()</u>: Time complexity (worst case) of a linear search in an array of size n.
+  + <u>[2-O](https://github.com/Heshbon/alx-low_level_programming/blob/master/0x1E-search_algorithms/2-O)</u>: Time complexity (worst case) of a linear search in an array of size n.
 
 # 3. Big O #1
 
-  + <u>[3-O]()</u>: Text file containing space complexity (worst case) of an iterative linear search algorithm.
+  + <u>[3-O](https://github.com/Heshbon/alx-low_level_programming/blob/master/0x1E-search_algorithms/3-O)</u>: Text file containing space complexity (worst case) of an iterative linear search algorithm.
 
 # 4. Big O #2
 
-  + <u>[4-O]()</u>: Text file containing time complexity (worst case) of a binary search.
+  + <u>[4-O](https://github.com/Heshbon/alx-low_level_programming/blob/master/0x1E-search_algorithms/4-O)</u>: Text file containing time complexity (worst case) of a binary search.
 
 # 5. Big O #3
 
-  + <u>[5-O]()</u>: Text file containing space complexity (worst case) of a binary search.
+  + <u>[5-O](https://github.com/Heshbon/alx-low_level_programming/blob/master/0x1E-search_algorithms/5-O)</u>: Text file containing space complexity (worst case) of a binary search.
 
 # 6. Big O #4
 
-  + <u>[6-O]()</u>: Text file containing the space complexity of this function / algorithm.
+  + <u>[6-O](https://github.com/Heshbon/alx-low_level_programming/blob/master/0x1E-search_algorithms/6-O)</u>: Text file containing the space complexity of this function / algorithm.
 
 # 7. Jump search
 
