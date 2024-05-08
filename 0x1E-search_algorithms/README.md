@@ -37,3 +37,15 @@ In this project on search algorithms, I implemented various search algorithms an
 # 6. Big O #4
 
   + <u>[6-O]()</u>: Text file containing the space complexity of this function / algorithm.
+
+# 7. Jump search
+
+  + <u>[100-jump.c](https://github.com/Heshbon/alx-low_level_programming/blob/master/0x1E-search_algorithms/100-jump.c)</u>: C function that searches for a value in a sorted array of integers using the Jump search algorithm.
+
+# 8. Big O #5
+
+  + <u>[101-O](https://github.com/Heshbon/alx-low_level_programming/blob/master/0x1E-search_algorithms/101-O)</u>
+
+# 9. Interpolation search
+
+  + <u>[102-interpolation.c](https://github.com/Heshbon/alx-low_level_programming/blob/master/0x1E-search_algorithms/102-interpolation.c)</u>: C function that searches for a value in a sorted array of integers using the Interpolation search algorithm.
