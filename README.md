@@ -69,4 +69,4 @@ Hesbon Kipchirchir <[Heshbon](https://github.com/Heshbon)>
 
 # Acknowledgements 🙏
 
-All work contained in this project is part of my ongoing curriculum training at ALX Africa. ALX Africa takes advantage of the fully-equipped Tech Hubs to prepare students for careers in the tech industry using project-based peer learning in Africa and the world. For more information, visit this link <u>(https://www.alxafrica.com/)</u>
+All work contained in this project is part of my ongoing curriculum training at ALX Africa. ALX Africa takes advantage of the fully-equipped Tech Hubs to prepare students for careers in the tech industry using project-based peer learning in Africa and the world. For more information, visit this link <u>[https://www.alxafrica.com]</u>
