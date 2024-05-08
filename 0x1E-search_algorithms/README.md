@@ -44,7 +44,7 @@ In this project on search algorithms, I implemented various search algorithms an
 
 # 8. Big O #5
 
-  + <u>[101-O](https://github.com/Heshbon/alx-low_level_programming/blob/master/0x1E-search_algorithms/101-O)</u>
+  + <u>[101-O](https://github.com/Heshbon/alx-low_level_programming/blob/master/0x1E-search_algorithms/101-O)</u>: Text file containing time complexity (average case) of a jump search in an array of size n, using step = sqrt(n).
 
 # 9. Interpolation search
 
