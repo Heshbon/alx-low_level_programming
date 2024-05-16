@@ -55,6 +55,8 @@ This repository contains programs written for the low-level programming and algo
 
   + <u>[0x1C-makefiles](https://github.com/Heshbon/alx-low_level_programming/tree/master/0x1C-makefiles)</u>
 
+  + <u>[0x1D. C - Binary trees](https://github.com/Heshbon/binary_trees)</u>
+
   + <u>[0x1E-search_algorithms](https://github.com/Heshbon/alx-low_level_programming/tree/master/0x1E-search_algorithms)</u>
 
 
