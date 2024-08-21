@@ -62,7 +62,7 @@ This repository contains programs written for the low-level programming and algo
 
 # Author ✒️
 
-Hesbon Kipchirchir <[Heshbon](https://github.com/Heshbon)>
+Hesbon Kipchirchir <u>[Heshbon](https://github.com/Heshbon)</u>
 
 
 # Acknowledgements 🙏
